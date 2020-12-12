@@ -1,2 +1,10 @@
 include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../fludroid_module/.android/include_flutter.groovy'
+))
 rootProject.name = "Fludroid"
+
+include ':fludroid_module'
+project(':fludroid_module').projectDir = new File('../fludroid_module')
