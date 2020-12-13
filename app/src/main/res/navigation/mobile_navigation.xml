@@ -20,6 +20,6 @@
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.thawdezin.fludroid.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_flutter"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
